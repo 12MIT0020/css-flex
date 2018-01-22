@@ -1,0 +1,42 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.box{
+  height: 100px;
+  width: 320px;
+    flex-grow: 1;
+}
+
+.flex-container{
+  display: flex;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+
+.one{
+  background: red;
+//  flex-shrink:    1;
+}
+
+.two{
+  background: blue;
+//  flex-shrink:    5;
+}
+
+.three{
+  background: green;
+//  flex-shrink:   2;
+}
